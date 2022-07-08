@@ -309,9 +309,8 @@ label[for='age']{
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     place-items: center;
-    row-gap: 100px;
-    column-gap: 30px;
-    margin-bottom: 50px;
+    row-gap: 10rem;
+    margin-bottom: 2rem;
 }
 .block {
     font-family: 'Inter';
@@ -320,54 +319,186 @@ label[for='age']{
     font-weight: 500;
     text-align: center;
     color: #000;
+    width: 173px;
+    height: 173px;
+}
+.block .border-img {
+    opacity: 0.9;
+    border: 5px solid #800303;
+    border-radius: 50%;
+    position: relative;
     width: 100%;
     height: 100%;
 }
-.block .block1-img1, .bloc2-img1, .block3-img1, .block4-img1, .block5-img1, .block6-img1 {
-    width: 173px;
-    height: 173px;
-    position: relative;
+.block .block-describe {
+    margin: auto;
 }
 .block1-img2 {
     position: absolute;
-    left: 335px;
-    top: 2060px;
+    left: 0%;
+    top: 10%;
+    width: 100%;
+}
+.block1-img3 {
+    position: absolute;
+    left: 14%;
+    top: 38%;
+    width: 23%;
+}
+.block1-img4 {
+    position: absolute;
+    left: 8%;
+    top: 43%;
+    width: 30%;
+}
+.block1-img5 {
+    position: absolute;
+    left: 8%;
+    top: 63%;
+    width: 32%;
+}
+.block1-img6 {
+    position: absolute;
+    left: 17%;
+    top: 38%;
+    width: 19%;
+    z-index: 1;
+}
+.block1-img7 {
+    position: absolute;
+    left: 17%;
+    top: 42%;
+    width: 17%;
+}
+.block1-img8 {
+    position: absolute;
+    left: 42%;
+    top: 39%;
+    z-index: 1;
+    width: 16%;
+}
+.block1-img9 {
+    position: absolute;
+    left: 30%;
+    top: 62%;
+    z-index: 2;
+    width: 34%;
+}
+.block1-img10 {
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    width: 28%;
+}
+.block1-img11 {
+    position: absolute;
+    left: 67.5%;
+    top: 36%;
+    width: 17%;
+    z-index: 1;
+}
+.block1-img12 {
+    position: absolute;
+    left: 59%;
+    top: 58%;
+    width: 32%;
+}
+.block1-img13 {
+    position: absolute;
+    left: 25%;
+    top: 63.5%;
+    width: 14%;
+}
+.block1-img14 {
+    position: absolute;
+    left: 60%;
+    top: 64%;
+    z-index: 1;
+    width: 8%;
+}
+.block1-img15 {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+.block1-img16 {
+    position: absolute;
+    left: 41%;
+    top: 52%;
+}
+.block1-img17 {
+    position: absolute;
+    left: 53%;
+    top: 51%;
+}
+.block1-img18 {
+    position: absolute;
+    left: 54%;
+    top: 52%;
+    width: 3%;
+}
+.block1-img19 {
+    position: absolute;
+    left:44%;
+    top: 58%;
+    z-index: 2;
+    width: 9%;
+}
+.block1-img20 {
+    position: absolute;
+    left: 67%;
+    top: 48%;
+}
+.block1-img21 {
+    position: absolute;
+    left: 81%;
+    top: 48%;
+}
+.block1-img22 {
+    position: absolute;
+    left: 43%;
+    top: 45%;
+    width: 13%;
 }
 .block2-img2 {
     position: absolute;
-    top: 2070px;
-    left: 865px;
-    width: 5.5%;
+    top: 20%;
+    left: 20%;
 }
 .block3-img2 {
     position: absolute;
-    top: 2065px;
-    left: 1351px;
-    width: 6.5%;
+    top: 15%;
+    left: 13%;
 }
 .block4-img2 {
     position: absolute;
-    top: 2415px;
-    left: 353px;
-    width: 7%;
+    top: 10%;
+    left: 10%;
+    width: 80%;
 }
 .block4-img3 {
     position: absolute;
-    top: 2435px;
-    left: 410px;
-    width: 2%;
+    top: 27%;
+    left: 45%;
+    width: 20%;
 }
 .block5-img2 {
     position: absolute;
-    top: 2415px;
-    left: 868px;
-    width: 5%;
+    top: 10%;
+    left: 20%;
+    width: 60%;
 }
 .block6-img2 {
     position: absolute;
-    top: 2430px;
-    left: 1355px;
-    width: 6%;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+}
+.block6-img3 {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    width: 25%;
 }
 
 

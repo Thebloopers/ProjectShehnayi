@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+
+/* Navbar section */
+.navbar {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  background-color: #AD0909;
+  font-family: 'Inter';
+  font-style: normal;
+}
+.navbar .logo {
+  width: 100px;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+.logo img {
+  width: 150px;
+  height: 150px;
+}
+.navbar .nav-links {
+  width: 80%;
+  height: 100%;
+}
+.nav-links ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 15px;
+  list-style: none;
+  height: 100%;
+}
+.nav-links ul li {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 43px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+li a {
+  text-decoration: none;
+  color: #ffff;
+}
+.nav-links .home {
+  background-color: #9C0808; 
+}
+.nav-links .profile {
+  padding-left: 60px;
+}
+.profile img {
+  position: absolute;
+  top: 3%;
+}
+.profile .profile-icon {
+  position: absolute;
+  right: 11.8%;
+  top: 4%;
+}
+
+/* Main section */
+.form-heading {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0.135em;
+  text-align: center;
+  color: #9c0808;
+  width: 100%;
+  margin: 3rem auto;
+}
+
+form {
+  width: 900px;
+  margin: 0 auto;
+  border: 3px solid #000;
+  border-radius: 15px;
+  background-color: #7676761a;
+  padding: 40px 100px;
+  margin-bottom: 32px;
+}
+
+label {
+  display: block;
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.135em;
+}
+input {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  /* line-height: 32px; */
+  letter-spacing: 0.135em;
+
+  padding: 12px 10px;
+  border: none;
+  margin-bottom: 22px;
+
+  opacity: 0.5;
+}
+select {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  /* line-height: 32px; */
+  letter-spacing: 0.135em;
+  padding: 12px 10px;
+  padding-right: 200px;
+  border: none;
+  margin-bottom: 22px;
+  opacity: 0.5;
+}
+.medium-select {
+  padding-right: 100px;
+}
+
+.small-select {
+  padding-right: 50px;
+}
+
+/* desktop 10 specific CSS */
+.desktop10-form {
+  padding: 15px 100px;
+}
+
+.desktop10-name {
+  display: flex;
+  gap: 60px;
+}
+
+/* desktop 11 specific CSS */
+#email {
+  padding-right: 80px;
+}
+
+.desktop11-phone-num {
+  display: flex;
+  gap: 60px;
+}
+#dob {
+  font-size: 18px;
+  padding: 12px 10px;
+  border: none;
+  margin-bottom: 22px;
+  opacity: 0.7;
+}
+
+/* desktop 12 specific CSS */
+.desktop12-height-weight {
+  display: flex;
+  gap: 50px;
+}
+
+/* desktop 13 specific CSS */
+.desktop13-job-div {
+  display: flex;
+  gap: 60px;
+}
+
+/* desktop 15 specific CSS */
+.desktop15-parent-status {
+  display: flex;
+  gap: 60px;
+}
+
+.desktop15-brother-count {
+  display: flex;
+  gap: 30px;
+}
+
+.desktop15-sister-count {
+  display: flex;
+  gap: 30px;
+}
+
+/* desktop 17 specific CSS */
+.desktop17-form-head {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.135em;
+  text-align: center;
+  margin-bottom: 30px;
+  opacity: 0.8;
+}
+
+.desktop17-form-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desktop17-age-div {
+  display: flex;
+  gap: 30px;
+}
+
+/* desktop 18 specific CSS */
+.desktop18-form {
+  width: 600px;
+}
+
+.desktop18-form-head {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.135em;
+
+  text-align: center;
+  margin-bottom: 30px;
+  opacity: 0.8;
+}
+
+/* desktop 19 specific CSS */
+.desktop19-form {
+  width: 600px;
+}
+
+.desktop19-form-head {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.135em;
+
+  text-align: center;
+  margin-bottom: 30px;
+  opacity: 0.8;
+}
+
+/* Form below Buttons */
+.button-link {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.next {
+  font-family: 'Inter';
+  font-style: normal;
+  background-color: #37ac00;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.135em;
+  text-align: center;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+}
+.next>a {
+  background-color: yellow;
+}
+
+/* Footer section */
+.footer {
+  background:#AD0909;
+  text-align: center;
+  padding-top: 1rem;
+}
+.logo-img {
+  padding-bottom: 2rem;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  width: 70%;
+  margin: 0 auto;
+}
+.foot-links-div {
+  width: 20%;
+}
+.links-title {
+  color: #ffffff;
+  font-size: 24px;
+  padding:  1.2rem 1rem;
+}
+.foot-links {
+  border-top: 1px solid #DD9B9B;
+  list-style: none;
+  display: flex;
+  flex-direction: column;   
+  padding: 1.5rem 0;
+}
+.foot-links li {
+  padding: .4rem;
+}
+.foot-links>li>a {
+  color: #FFFFFF;
+  opacity: 0.6;
+  font-size: 20px;
+}
+.footer-links .social-links {
+  width: 100%;
+}
+.social-links .social-title {
+  width: 100%;
+  margin: auto;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+.social-links .social-icons {
+  padding: 1rem;
+}
+.social-icons>img {
+  padding: 1rem;
+  width: 60px;
+  height: 60px;
+}
+.footer .footer-end {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  color: #cbcbcb;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 1rem 0;
+}
+.footer-end .privacy-policy {
+  padding: 0 2rem;
+  border-left: .2rem solid #cbcbcb;
+  border-right: .2rem solid #cbcbcb;
+}
+.footer-end .terms-condtns {
+  padding-right: 3rem;
+}
+.footer-end .contact-us {
+  padding-left: 3rem;
+}
